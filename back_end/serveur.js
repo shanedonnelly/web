@@ -42,7 +42,7 @@ const authRouter = require('./routes/authentification');
 
 app.use('/authentification', authRouter);
 
-server.listen('8080', ' polychess-aw87gpjn.b4a.run' , () => {
+server.listen('8080', ' 0.0.0.0' , () => {
   console.log(`Serveur démarré http://${HOST}:${PORT}`);
 });
 
