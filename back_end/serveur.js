@@ -42,7 +42,7 @@ const authRouter = require('./routes/authentification');
 
 app.use('/authentification', authRouter);
 
-server.listen(PORT, HOST , () => {
+server.listen('8080', HOST , () => {
   console.log(`Serveur démarré http://${HOST}:${PORT}`);
 });
 

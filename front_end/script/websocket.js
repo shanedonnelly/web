@@ -1,8 +1,8 @@
 
 
 const IP = 'localhost';
-const PORT = '3000';
-
+// const PORT = '3000';
+const PORT = '8080';
 var ws = null;
 function getCookie(name) {
     const value = `; ${document.cookie}`;
