@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Polychess</title> 
+     <link rel = "icon" href="assets/logo.ico">
+    <link rel="stylesheet" href="style/profile.css">
+    <link rel = stylesheet href="style/main.css">
+    <link rel = "stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    
+  </head>
+  <body>
+    <header>
+        <div id = "logo">
+            <img src="assets/logo.png" alt="Logo du site">
+        </div>
+    
+        <nav id = "navbar">
+            <a href=""><h2>A propos</h2></a> 
+            <a href="index.html"><h2>Jouer</h2></a> 
+            <a id = "connexion" href="connexion.html"><h2>Se connecter / S'inscrire</h2></a> 
+            <a id = profile href="profile.html"><h2>Profil</h2></a>
+        </nav> 
+    </header>
+    <section>
+        <div class="profile-card">
+            <h3>Mon Profil</h3>
+            <div class="profile-picture">
+                <img id="profile-pic" src="" alt="Profile Picture">
+                <div class="profile-pic-edit-icon">🖉</div>
+            </div>
+            <div class="profile-pic-selection">
+                <input type="file" id="profile-pic-select" accept="image/*">
+                <select id="choice-list">
+                    <option value="none">Aucun</option>
+                    <option value="option1">Option 1</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <button id="profile-pic-confirm">Confirmer</button>
+            </div>
+            <div class="profile-details">
+                <p id = "username">Mon username</p>
+                <button id="logout-button">Se déconnecter</button>
+            </div>
+        </div>
+    </section>
+    <script src="script/navbar.js"></script>
+    <script src="script/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+:root{
+	--main-color: #FEEFE5;
+	--dark-color: #5C9EAD;
+	/*--third-color: #009EE0;*/
+	--third-color: #bac9de;
+
+}
+
+section{
+	display: flex;
+}
+/* div {
+	border: 1px solid black;
+} */
+
+body{
+	background-color:  var(--main-color); 
+}

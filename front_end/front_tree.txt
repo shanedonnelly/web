@@ -1,0 +1,35 @@
+.
+├── assets
+│   ├── game
+│   │   ├── damier.png
+│   │   └── finalpiece
+│   │       ├── bishop.png
+│   │       ├── king.png
+│   │       ├── knight.png
+│   │       ├── pawn.png
+│   │       ├── queen.png
+│   │       ├── rook.png
+│   │       └── rook2.png
+│   ├── logo.ico
+│   └── logo.png
+├── connexion.html
+├── create.html
+├── front_tree.txt
+├── index.html
+├── profile.html
+├── script
+│   ├── connexion.js
+│   ├── create.js
+│   ├── index.js
+│   ├── navbar.js
+│   ├── profile.js
+│   ├── test.js
+│   └── websocket.js
+└── style
+    ├── connexion.css
+    ├── header.css
+    ├── index.css
+    ├── main.css
+    └── profile.css
+
+5 directories, 27 files

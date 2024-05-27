@@ -1,0 +1,90 @@
+
+
+#game, #leaderboard  {
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;*/
+}
+
+
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 8vw;
+  }
+
+#game {
+	opacity: 0.5;
+	position: relative;
+	left: 30vw;
+	top: 6vh;
+	width: 30vw;
+	height: 30vw;
+
+	
+}
+#damier{
+	width: 100%;
+}
+
+
+#grid {
+	border: 0px;
+	position: absolute;
+	top: 0;
+    left: 0;
+	display: grid;
+	grid-template-columns: repeat(8, 12.5%);
+	grid-template-rows: repeat(8, 12.5%);
+	width: 100%;
+	height: 100%;
+}
+
+#grid > div {
+	border: 1px solid black; /* Optional, to visualize the squares */
+}
+
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay-text {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+#overlay-button {
+    color: white;
+    background-color: var(--dark-color);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cell > img {
+    width: 100%;
+}
+
+#leaderboard{
+	display: flex;
+	position: relative;
+	width: fit-content;
+	margin-left: auto;
+	padding: 10px;
+	top: 6vh;
+	right: 4vw;
+}
+
+#leaderboard > * {
+	width: 100%;
+}

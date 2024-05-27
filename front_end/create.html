@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Polychess</title> 
+     <link rel = "icon" href="assets/logo.ico">
+    <link rel="stylesheet" href="style/connexion.css">
+    <link rel = stylesheet href="style/main.css">
+    <link rel = "stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+  <body>
+    <header>
+        <div id = "logo">
+            <img src="assets/logo.png" alt="Logo du site">
+        </div>
+    
+        <nav id = "navbar">
+          <a href=""><h2>A propos</h2></a> 
+          <a href="index.html"><h2>Jouer</h2></a> 
+          <a id = "connexion" href="connexion.html"><h2>Se connecter / S'inscrire</h2></a> 
+          <a id = profile href="profile.html"><h2>Profil</h2></a>
+      </nav> 
+    </header>
+    <section>
+        <div class="container">
+            <div class="wrapper">
+              <div class="title"><span>Crée un compte</span></div>
+              <form id = "creationForm">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <input id = "username"type="text" placeholder="username" required>
+                </div>
+                <div class="row">
+                  <i class="fas fa-lock"></i>
+                  <input id = "psw1" type="password" placeholder="password" required>
+                </div>
+                <div class="row">
+                    <i class="fas fa-lock"></i>
+                    <input id = "psw2" type="password" placeholder="repeat password" required>
+                  </div>
+                <div class="row button"  id = "submitCreate">
+                  <input type="submit" value="Créer">
+                </div>
+                <div class="signup-link">Vous avez déjà un compte ? <a href="create.html">Connexion</a></div>
+              </form>
+            </div>
+          </div>
+    </section>
+    <script src="script/navbar.js"></script>
+    <script src="script/create.js"></script>
+  </body>
+</html>

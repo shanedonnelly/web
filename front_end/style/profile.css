@@ -1,0 +1,103 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: Arial, sans-serif;
+
+}
+#choice-list {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.profile-picture {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-pic-edit-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+.profile-pic-selection {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.profile-pic-selection > * {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.profile-pic-selection input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.profile-pic-selection button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-pic-selection button:hover {
+    background-color: #0056b3;
+}
+.profile-details input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-details button:hover {
+    background-color: darkred;
+}
